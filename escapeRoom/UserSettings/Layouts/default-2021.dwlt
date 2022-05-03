@@ -16,11 +16,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 2560
-    height: 1357
+    width: 1920
+    height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
+<<<<<<< HEAD
+  m_RootView: {fileID: 5}
+=======
   m_RootView: {fileID: 9}
+>>>>>>> 2층만들기
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -34,15 +38,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+=======
   m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 871
-    width: 1757
-    height: 436
+    y: 631
+    width: 1318
+    height: 316
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -69,12 +75,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1757
-    height: 1307
+    width: 1318
+    height: 947
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 122
+<<<<<<< HEAD
+  controlID: 109
+=======
+  controlID: 69
+>>>>>>> 47a450342fc329f60b1e9c5709c692d16bafd6d6
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -85,15 +95,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 2층만들기
   m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 232
+<<<<<<< HEAD
+    x: 0
     y: 0
-    width: 222
-    height: 871
+    width: 400
+    height: 1307
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+=======
+    x: 174
+    y: 0
+    width: 166
+    height: 631
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
@@ -120,12 +145,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 454
-    height: 871
+    width: 340
+    height: 631
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+<<<<<<< HEAD
+  controlID: 89
+=======
+  controlID: 49
+>>>>>>> 47a450342fc329f60b1e9c5709c692d16bafd6d6
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,9 +171,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 871
-    width: 454
-    height: 436
+    y: 631
+    width: 340
+    height: 316
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -169,15 +198,20 @@ MonoBehaviour:
   - {fileID: 6}
   m_Position:
     serializedVersion: 2
-    x: 1757
+    x: 1318
     y: 0
-    width: 454
-    height: 1307
+    width: 340
+    height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+<<<<<<< HEAD
+  controlID: 88
+=======
+  controlID: 48
+>>>>>>> 47a450342fc329f60b1e9c5709c692d16bafd6d6
 --- !u!114 &8
+>>>>>>> 2층만들기
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,17 +227,49 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 871
+    width: 1584
+    height: 436
+=======
     y: 0
-    width: 232
-    height: 871
+    width: 174
+    height: 631
+>>>>>>> 2층만들기
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 13}
+  - {fileID: 11}
   m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &9
+  m_LastSelected: 1
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 400
+    y: 0
+    width: 1584
+    height: 1307
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 17
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,22 +282,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 11}
-  - {fileID: 12}
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
-    height: 1357
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &10
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,12 +314,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &11
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,20 +332,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 7}
-  - {fileID: 14}
+  - {fileID: 2}
+  - {fileID: 4}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 2560
     height: 1307
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 79
+--- !u!114 &8
+=======
+    width: 1920
+    height: 947
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 40
+  controlID: 68
 --- !u!114 &12
+>>>>>>> 2층만들기
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -295,12 +371,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1337
-    width: 2560
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &13
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,16 +393,25 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1757
+<<<<<<< HEAD
+    width: 1584
     height: 871
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
+=======
+    width: 1318
+    height: 631
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
+>>>>>>> 2층만들기
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &14
+  m_LastSelected: 1
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341,18 +426,25 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2211
+<<<<<<< HEAD
+    x: 1984
     y: 0
-    width: 349
+    width: 576
     height: 1307
+=======
+    x: 1658
+    y: 0
+    width: 262
+    height: 947
+>>>>>>> 2층만들기
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -372,15 +464,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1757
-    y: 944
-    width: 452
-    height: 415
+<<<<<<< HEAD
+    x: 200
+    y: 464
+    width: 790
+    height: 174.99997
+=======
+    x: 1318
+    y: 704
+    width: 338
+    height: 295
+>>>>>>> 2층만들기
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -400,10 +499,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2211
+<<<<<<< HEAD
+    x: 1984
     y: 73
-    width: 348
+    width: 575
     height: 1286
+=======
+    x: 1658
+    y: 73
+    width: 261
+    height: 926
+>>>>>>> 2층만들기
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -421,7 +527,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,10 +547,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1757
+<<<<<<< HEAD
+    x: 400
+    y: 944
+    width: 1582
+    height: 415
+=======
+    x: 1318
     y: 73
-    width: 230
-    height: 850
+    width: 172
+    height: 610
+>>>>>>> 2층만들기
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -461,22 +574,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Scenes
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\\uAE40\uC131\uC724\\Desktop\\Project\\Wap_Project\\EscapeRoom(main)\\escapeRoom"
+  m_LastProjectPath: C:\Users\user\Desktop\WAP_GAME_PROJECT\EscapeRoom_main\escapeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 563d0000
     m_LastClickedID: 15702
-    m_ExpandedIDs: 00000000f44a0000f64a0000
+    m_ExpandedIDs: 00000000124b0000144b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +616,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000f44a0000f64a0000
+    m_ExpandedIDs: ffffffff00000000124b0000144b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,7 +672,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &18
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -580,10 +692,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 200
+    y: 72.66667
+    width: 790
+    height: 370.33334
+=======
     x: 0
-    y: 944
-    width: 1756
-    height: 415
+    y: 704
+    width: 1317
+    height: 295
+>>>>>>> 2층만들기
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -619,7 +738,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -629,30 +748,48 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
+      y: 0
+      width: 790
+      height: 370.33334
+    m_Scale: {x: 0.34290123, y: 0.34290123}
+    m_Translation: {x: 395, y: 185.16666}
+=======
       y: 21
-      width: 1756
-      height: 394
-    m_Scale: {x: 0.38425925, y: 0.38425928}
-    m_Translation: {x: 878, y: 197}
+      width: 1317
+      height: 274
+    m_Scale: {x: 0.2537037, y: 0.2537037}
+    m_Translation: {x: 658.5, y: 137}
+>>>>>>> 2층만들기
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2284.9158
-      y: -512.6747
-      width: 4569.8315
-      height: 1025.3494
+<<<<<<< HEAD
+      x: -1151.9352
+      y: -540
+      width: 2303.8704
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.38425925
-  m_LastWindowPixelSize: {x: 1756, y: 415}
+  m_defaultScale: 0.34290123
+  m_LastWindowPixelSize: {x: 790, y: 370.33334}
+=======
+      x: -2595.5474
+      y: -540
+      width: 5191.0947
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.2537037
+  m_LastWindowPixelSize: {x: 1317, y: 295}
+>>>>>>> 2층만들기
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,10 +809,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 400
     y: 73
-    width: 1756
+<<<<<<< HEAD
+    width: 1582
     height: 850
+=======
+    width: 1317
+    height: 610
+>>>>>>> 2층만들기
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -877,9 +1019,21 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.296064, y: -0.18741083, z: 0.4623661}
+<<<<<<< HEAD
+    m_Target: {x: 1.8350013, y: 0.8764202, z: 8.831875}
     speed: 2
-    m_Value: {x: -2.296064, y: -0.18741083, z: 0.4623661}
+    m_Value: {x: 1.8350013, y: 0.8764202, z: 8.831875}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -6.2719784, y: -9.723053, z: -8.853137}
+    speed: 2
+    m_Value: {x: -6.2719784, y: -9.723053, z: -8.853137}
+=======
+    m_Target: {x: 11.784701, y: 4.4810133, z: -12.364399}
+    speed: 2
+    m_Value: {x: 11.784701, y: 4.4810133, z: -12.364399}
+>>>>>>> 47a450342fc329f60b1e9c5709c692d16bafd6d6
+>>>>>>> 2층만들기
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -926,20 +1080,40 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1531648, y: 0.8138913, z: -0.24803415, w: -0.50259024}
+<<<<<<< HEAD
+    m_Target: {x: 0.10212466, y: 0.010438426, z: -0.0010799293, w: 0.9947056}
     speed: 2
-    m_Value: {x: -0.15353695, y: 0.81313795, z: -0.24780457, w: -0.5038114}
+    m_Value: {x: 0.10212725, y: 0.008946451, z: -0.00092675094, w: 0.9947307}
+  m_Size:
+    m_Target: 14.411776
+    speed: 2
+    m_Value: 14.411776
+=======
+<<<<<<< HEAD
+    m_Target: {x: -0.2237579, y: 0.7761882, z: -0.41182527, w: -0.42171395}
+    speed: 2
+    m_Value: {x: -0.22439265, y: 0.77557796, z: -0.41299352, w: -0.42138237}
+  m_Size:
+    m_Target: 13.791173
+    speed: 2
+    m_Value: 14.441019
+=======
+    m_Target: {x: 0.0013870606, y: 0.9916027, z: -0.0107217925, w: 0.1289348}
+    speed: 2
+    m_Value: {x: 0.0015804414, y: 0.99157715, z: -0.012209082, w: 0.1289315}
   m_Size:
     m_Target: 6.640014
     speed: 2
-    m_Value: 6.640014
+    m_Value: 6.3247147
+>>>>>>> 47a450342fc329f60b1e9c5709c692d16bafd6d6
+>>>>>>> 2층만들기
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 0.64068
+    m_SpeedNormalized: 0.32
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -957,7 +1131,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,10 +1151,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1989
+<<<<<<< HEAD
+    x: 0
     y: 73
-    width: 220
-    height: 850
+    width: 399
+    height: 1286
+=======
+    x: 1492
+    y: 73
+    width: 164
+    height: 610
+>>>>>>> 2층만들기
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -990,7 +1171,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38fbffff
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1006,7 +1187,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 2}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0

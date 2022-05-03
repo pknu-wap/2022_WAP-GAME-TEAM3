@@ -1,0 +1,10 @@
+diff a/escapeRoom/UserSettings/Layouts/default-2021.dwlt b/escapeRoom/UserSettings/Layouts/default-2021.dwlt	(rejected hunks)
+@@ -125,7 +125,7 @@
+   m_MinSize: {x: 200, y: 100}
+   m_MaxSize: {x: 16192, y: 8096}
+   vertical: 0
+-  controlID: 86
++  controlID: 95
+ --- !u!114 &6
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
