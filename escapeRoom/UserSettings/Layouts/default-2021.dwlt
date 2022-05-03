@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 60
+  controlID: 79
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,7 +375,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 563d0000
     m_LastClickedID: 15702
-    m_ExpandedIDs: 00000000124b0000144b0000
+    m_ExpandedIDs: 00000000084b00000a4b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,7 +403,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000124b0000144b0000
+    m_ExpandedIDs: ffffffff00000000084b00000a4b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -776,9 +776,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -19.245285, y: 4.240461, z: -3.3929734}
+    m_Target: {x: 1.8350013, y: 0.8764202, z: 8.831875}
     speed: 2
-    m_Value: {x: -19.245285, y: 4.240461, z: -3.3929734}
+    m_Value: {x: 1.8350013, y: 0.8764202, z: 8.831875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -825,13 +825,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.108592786, y: 0.73604625, z: -0.12166159, w: -0.65697765}
+    m_Target: {x: 0.10212466, y: 0.010438426, z: -0.0010799293, w: 0.9947056}
     speed: 2
-    m_Value: {x: -0.10957938, y: 0.7358712, z: -0.12276687, w: -0.65682137}
+    m_Value: {x: 0.10212725, y: 0.008946451, z: -0.00092675094, w: 0.9947307}
   m_Size:
-    m_Target: 16.7151
+    m_Target: 14.411776
     speed: 2
-    m_Value: 15.99531
+    m_Value: 14.411776
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -887,9 +887,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e44a0000
-      m_LastClickedID: 19172
-      m_ExpandedIDs: b6f8ffff36fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
