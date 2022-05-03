@@ -74,7 +74,11 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 17
+=======
+  controlID: 137
+>>>>>>> 317bdd120a8594fd9ddafb653b74d7b674709fe2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +129,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 101
+=======
+  controlID: 87
+>>>>>>> 317bdd120a8594fd9ddafb653b74d7b674709fe2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +184,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 100
+=======
+  controlID: 86
+>>>>>>> 317bdd120a8594fd9ddafb653b74d7b674709fe2
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +290,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 65
+=======
+  controlID: 17
+>>>>>>> 317bdd120a8594fd9ddafb653b74d7b674709fe2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -988,9 +1004,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 38fbffff
+=======
+      m_SelectedIDs: f44a0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 68faffff38fbffff
+>>>>>>> 317bdd120a8594fd9ddafb653b74d7b674709fe2
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
