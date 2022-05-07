@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
 
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
             RaycastHit hit;
 
