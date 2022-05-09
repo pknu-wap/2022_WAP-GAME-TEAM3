@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -81,7 +82,16 @@ public class Player : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log(hit.transform.gameObject.name);
+                if (hit.collider.CompareTag("2Fstair"))
+                {
+                    SceneManager.LoadScene("2Floor");
+                }
+                else if (hit.collider.CompareTag("JouhyunRoom"))
+                {
+                    SceneManager.LoadScene("JouhyunRoom");
+                }    
+              
+                    Debug.Log(hit.transform.gameObject.name);
             }
         }
     }
