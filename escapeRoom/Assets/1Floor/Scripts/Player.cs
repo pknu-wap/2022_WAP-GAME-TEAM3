@@ -82,11 +82,7 @@ public class Player : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.CompareTag("2Fstair"))
-                {
-                    SceneManager.LoadScene("2Floor");
-                }
-                else if (hit.collider.CompareTag("JouhyunRoom"))
+                if (hit.collider.CompareTag("JouhyunRoom"))
                 {
                     SceneManager.LoadScene("JouhyunRoom");
                 }    
