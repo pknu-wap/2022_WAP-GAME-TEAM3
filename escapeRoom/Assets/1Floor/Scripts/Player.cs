@@ -59,7 +59,6 @@ public class Player : MonoBehaviour
     private float Gravity = 10.0f; // 중력   
     private Vector3 MoveDir = Vector3.zero; // 캐릭터의 움직이는 방향.
     private bool JumpButtonPressed = false;  //  최종 점프 버튼 눌림 상태
-    private bool FlyingMode = false;  // 행글라이더 모드여부
 
     float rotSpeed = 3.0f;
     float currentRot = 0f;
@@ -82,11 +81,7 @@ public class Player : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.CompareTag("2Fstair"))
-                {
-                    SceneManager.LoadScene("2Floor");
-                }
-                else if (hit.collider.CompareTag("JouhyunRoom"))
+                if (hit.collider.CompareTag("JouhyunRoom"))
                 {
                     SceneManager.LoadScene("JouhyunRoom");
                 }    
@@ -121,37 +116,14 @@ public class Player : MonoBehaviour
         // 캐릭터가 바닥에 붙어 있지 않다면
         else
         {
-            // 하강중에 스페이스 버튼을 누르면 슬로우 낙하모드 발동!
-            if (MoveDir.y < 0 && JumpButtonPressed == false && Input.GetButton("Jump"))
-            {
-                FlyingMode = true;
-            }
-
-            if (FlyingMode)
-            {
-                JumpButtonPressed = true;
-
-                // 중력 수치를 감속합니다.
-                MoveDir.y *= 0.95f;
-
-                // 하지만 하늘에서 정지해 있는 일은 벌어지지 않게 하기 위해
-                // 최소 초당 -1의 하강 속도는 유지합니다.
-                if (MoveDir.y > -1) MoveDir.y = -1;
-
-                // 또한 이 때는 방향전환이 가능합니다.
-                MoveDir.x = Input.GetAxis("Horizontal");
-                MoveDir.z = Input.GetAxis("Vertical");
-            }
-            else
-                // 중력의 영향을 받아 아래쪽으로 하강합니다.           
-                MoveDir.y -= Gravity * Time.deltaTime;
+            // 중력의 영향을 받아 아래쪽으로 하강합니다.           
+            MoveDir.y -= Gravity * Time.deltaTime;
         }
 
         // 점프버튼이 눌려지지 않은 경우
         if (!Input.GetButton("Jump"))
         {
             JumpButtonPressed = false;  // 최종점프 버튼 눌림 상태 해제
-            FlyingMode = false;         // 행글라이더 모드 해제
         }
         // 앞 단계까지는 캐릭터가 이동할 방향만 결정하였으며,
         // 실제 캐릭터의 이동은 여기서 담당합니다.
@@ -166,7 +138,7 @@ public class Player : MonoBehaviour
                 nextFootstep += footStepDelay;
             }
         }
-}
+    }
     void RotCtrl()
     {
         float rotX = Input.GetAxis("Mouse Y") * rotSpeed;
