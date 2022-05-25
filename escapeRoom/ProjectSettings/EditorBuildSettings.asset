@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Sceness/1Floor.unity
+    path: Assets/Sceness/1F/1Floor.unity
     guid: 83dd4dc26c141d74791e3f8670240cc1
   - enabled: 1
     path: Assets/Sceness/2F/2Floor.unity
     guid: c21f0e8dc5b8c144d9330ce066cb1a55
   - enabled: 1
-    path: Assets/Sceness/JouhyunRoom.unity
+    path: Assets/Sceness/1F/JouhyunRoom.unity
     guid: 09738becb57b784429bdb5eec604ced6
   m_configObjects: {}
