@@ -41,6 +41,8 @@ public class Player : MonoBehaviour
     public GameObject[] life = { };
 
     public string currentSpot = "1FStart";
+    public string lockname = "";
+    public float interactDistance = 3.0f;
 
     // Update is called once per frame
     void Update()
@@ -49,20 +51,7 @@ public class Player : MonoBehaviour
         RotCtrl();
         if (Input.GetKeyDown(KeyCode.E))
         {
-
-            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.collider.CompareTag("JouhyunRoom"))
-                {
-                    SceneManager.LoadScene("JouhyunRoom");
-                }
-
-                Debug.Log(hit.transform.gameObject.name);
-            }
+            transform.GetComponent<Interaction>().P_Interaction();
         }
 
         if (Input.GetKeyDown(KeyCode.F))

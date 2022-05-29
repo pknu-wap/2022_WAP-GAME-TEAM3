@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sceness/1F/JouhyunRoom.unity
     guid: 09738becb57b784429bdb5eec604ced6
+  - enabled: 1
+    path: Assets/Sceness/2F/Room2f_1.unity
+    guid: 149b40cd9f9adcf4782c224bddcb61e9
+  - enabled: 1
+    path: Assets/Sceness/2F/Room2F_204.unity
+    guid: 8b8e0dce8cc4b9d4c8ccf7f08ff58188
+  - enabled: 1
+    path: Assets/Sceness/2F/2F_lab.unity
+    guid: 718ce4b0d877094439c9a169ad87206a
   m_configObjects: {}
