@@ -13,6 +13,15 @@ TagManager:
   - 103
   - 104
   - 105
+  - OfficeIn
+  - OfficeOut
+  - 204frontin
+  - 204frontout
+  - 204backin
+  - 204backout
+  - LabIn
+  - LabOut
+  - Professor
   layers:
   - Default
   - TransparentFX

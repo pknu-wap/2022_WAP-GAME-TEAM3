@@ -19,7 +19,6 @@ public class MapChangPoint : MonoBehaviour
     // 박스 콜라이더에 닿는 순간 이벤트 발생
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         if (collision.gameObject.name == "Player")
         {
             thePlayer.currentSpot = transferMapName;
