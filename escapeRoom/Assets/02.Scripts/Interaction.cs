@@ -58,7 +58,12 @@ public class Interaction : MonoBehaviour
             else if (hit.collider.CompareTag("Professor"))
             {
                 Player.P_instance.lockname = "professor";
-                transform.GetComponent<CheckingLock>().CheckLock();
+                hit.transform.GetComponent<CheckingLock>().CheckLock();
+            }
+            else if (hit.collider.CompareTag("lockDoor"))
+            {
+                text.text = "문이 잠긴것 같다. 열려있는 방을 찾아보는게 좋겠어.";
+                StartCoroutine(TextOut());
             }
             Debug.Log(hit.transform.gameObject.name);
         }
