@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
     public float footStepDelay = 0.5f;
     private float nextFootstep = 0;
     public bool slowStep = false;
-    public GameObject[] life = { };
+    public int life = 3;
 
     public string currentSpot = "1FStart";
     public string lockname = "";
