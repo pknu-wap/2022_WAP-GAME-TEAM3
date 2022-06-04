@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlashLight : MonoBehaviour
 {
-    bool FlashState = false;
+    bool FlashState = true;
     public void UseFlash()
     {
         if (FlashState == false)

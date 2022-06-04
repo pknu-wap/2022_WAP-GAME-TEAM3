@@ -19,7 +19,10 @@ public class Player : MonoBehaviour
         { 
             if (P_instance != this) //instance가 내가 아니라면 이미 instance가 하나 존재하고 있다는 의미 
                 Destroy(this.gameObject); //둘 이상 존재하면 안되는 객체이니 방금 AWake된 자신을 삭제 
-        } 
+        }
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public CharacterController SelectPlayer; // 제어할 캐릭터 컨트롤러
@@ -38,17 +41,27 @@ public class Player : MonoBehaviour
     public float footStepDelay = 0.5f;
     private float nextFootstep = 0;
     public bool slowStep = false;
-    public GameObject[] life = { };
+    public int life = 3;
 
     public string currentSpot = "1FStart";
     public string lockname = "";
     public float interactDistance = 3.0f;
 
+    public GameObject[] inventory;
+    public bool moveMouse = true;
+
+    // 아이템들
+    public bool officekey = false;
+    public bool masterKey = false;
+
     // Update is called once per frame
     void Update()
     {
         Move();
-        RotCtrl();
+        if (moveMouse == true)
+        {
+            RotCtrl();
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             transform.GetComponent<Interaction>().P_Interaction();
