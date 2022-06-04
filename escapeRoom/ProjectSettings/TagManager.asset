@@ -6,13 +6,6 @@ TagManager:
   tags:
   - 2Fstair
   - JouhyunRoom
-  - 106
-  - 100
-  - 101
-  - 102
-  - 103
-  - 104
-  - 105
   - OfficeIn
   - OfficeOut
   - 204frontin
@@ -22,6 +15,14 @@ TagManager:
   - LabIn
   - LabOut
   - Professor
+  - closeDoor
+  - 1FclassRoom
+  - 1FCRout
+  - PaperHint1
+  - PaperHint2
+  - PaperHint3
+  - getOfficKey
+  - LabLock
   layers:
   - Default
   - TransparentFX

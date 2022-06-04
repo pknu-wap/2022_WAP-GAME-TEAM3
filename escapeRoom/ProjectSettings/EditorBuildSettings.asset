@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/2F_lab.unity
     guid: 718ce4b0d877094439c9a169ad87206a
+  - enabled: 1
+    path: Assets/01.Scenes/1F_Classroom.unity
+    guid: be81cd40583a042adab66bdb870ccee1
   m_configObjects: {}
