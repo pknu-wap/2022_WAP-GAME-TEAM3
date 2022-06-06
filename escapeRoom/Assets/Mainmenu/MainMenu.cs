@@ -5,6 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
     public void OnClickNewGame()
     {
         Debug.Log("New Game");
@@ -17,11 +28,11 @@ public class MainMenu : MonoBehaviour
     public void OnClickExit()
     {
         Debug.Log("Exit");
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#else
         Application.Quit();
-        #endif
+#endif
     }
 
 }
