@@ -1953,6 +1953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lock
       objectReference: {fileID: 0}
+    - target: {fileID: 1078284908343038316, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1078284908343038317, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2040,7 +2044,7 @@ PrefabInstance:
     - target: {fileID: 1078284908383432295, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1737478008}
+      objectReference: {fileID: 0}
     - target: {fileID: 1078284908383432295, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CheckButton
@@ -2052,22 +2056,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1078284908343038317, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
   m_PrefabInstance: {fileID: 518554790}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &518554792 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1078284908343038316, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
-  m_PrefabInstance: {fileID: 518554790}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &518554793 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1078284908343038322, guid: 5ac5d1beae46c7747a80508776599889, type: 3}
-  m_PrefabInstance: {fileID: 518554790}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518554792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &534602924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6555,7 +6543,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1737478007}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: OpenKey, Assembly-CSharp
         m_MethodName: CheckmasterKeyButton
         m_Mode: 1
@@ -6750,81 +6738,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3ea68ad907927f4ebfe170bd93d14c0, type: 3}
---- !u!1 &1737478005
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1737478006}
-  - component: {fileID: 1737478009}
-  - component: {fileID: 1737478008}
-  - component: {fileID: 1737478007}
-  m_Layer: 0
-  m_Name: Locking
-  m_TagString: LabLock
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1737478006
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737478005}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.979, y: 0.355, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4714793446720759070}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1737478007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737478005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a5c35cede632c44e8821ce1197f66a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KEY: {fileID: 1718057678}
---- !u!114 &1737478008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737478005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03999fa413cb699488c49b6214d62440, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Doorlock: 1
-  Lockwindow: {fileID: 518554792}
-  Door_InputField: {fileID: 518554793}
---- !u!65 &1737478009
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737478005}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5906024, y: 0.28521788, z: 0.64816713}
-  m_Center: {x: 0.09120536, y: 0.33581898, z: 0.16979337}
 --- !u!1001 &1750868376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9333,11 +9246,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2883c31c51455a046bada9783c20a50d, type: 3}
---- !u!4 &4714793446720759070 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 428272, guid: 2883c31c51455a046bada9783c20a50d, type: 3}
-  m_PrefabInstance: {fileID: 4714793446720759069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4824058848474595275
 PrefabInstance:
   m_ObjectHideFlags: 0

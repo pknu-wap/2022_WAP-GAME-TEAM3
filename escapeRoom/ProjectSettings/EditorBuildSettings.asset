@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/01.Scenes/2Floor.unity
     guid: c21f0e8dc5b8c144d9330ce066cb1a55
   - enabled: 1
-    path: Assets/01.Scenes/JouhyunRoom.unity
-    guid: 09738becb57b784429bdb5eec604ced6
-  - enabled: 1
     path: Assets/01.Scenes/Room2f_1.unity
     guid: 149b40cd9f9adcf4782c224bddcb61e9
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/1F_Classroom.unity
     guid: be81cd40583a042adab66bdb870ccee1
+  - enabled: 1
+    path: Assets/01.Scenes/ProfessorRoom.unity
+    guid: 567b724fac871634d9abd155dd71e63b
   m_configObjects: {}

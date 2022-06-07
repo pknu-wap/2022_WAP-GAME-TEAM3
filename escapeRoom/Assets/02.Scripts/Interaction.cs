@@ -55,8 +55,8 @@ public class Interaction : MonoBehaviour
             }
             else if (hit.collider.CompareTag("LabIn")) // 문 상호작용
             {
-                Player.P_instance.currentSpot = "LabIn";
-                SceneManager.LoadScene("2F_lab");
+                Player.P_instance.lockname = "LabLock";
+                hit.transform.GetComponent<CheckingLock>().CheckLock();
             }
             else if (hit.collider.CompareTag("LabOut")) // 문 상호작용
             {
@@ -78,6 +78,11 @@ public class Interaction : MonoBehaviour
                 Player.P_instance.lockname = "professor";
                 hit.transform.GetComponent<CheckingLock>().CheckLock();
             }
+            else if (hit.collider.CompareTag("ProOut"))
+            {
+                Player.P_instance.currentSpot = "professorOut";
+                SceneManager.LoadScene("2Floor");
+            }
             else if (hit.collider.CompareTag("closeDoor"))
             {
                 text.text = "문이 잠긴것 같다. 열려있는 방을 찾아보는게 좋겠어.";
@@ -93,10 +98,18 @@ public class Interaction : MonoBehaviour
                 text.text = "학과 사무실 키를 획득하였다!";
                 StartCoroutine("TextOut", 3.0f);
             }
-            else if (hit.collider.CompareTag("LabLock") && Player.P_instance.masterKey == false)
+            else if(hit.collider.CompareTag("OfficeHint"))
             {
-                Player.P_instance.lockname = "LabLock";
-                hit.transform.GetComponent<CheckingLock>().CheckLock();
+                hit.transform.GetComponent<OfficeHint>().CheckHint();
+            }
+            else if (hit.collider.CompareTag("Monitor"))
+            {
+                Player.P_instance.lockname = "Monitor";
+                hit.transform.GetComponent<OpenMonitor>().CheckLock();
+            }
+            else if (hit.collider.CompareTag("HintPaper"))
+            {
+                hit.transform.GetComponent<OpenKey>().GetOfficKey();
             }
             Debug.Log(hit.transform.gameObject.name);
         }
