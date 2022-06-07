@@ -23,6 +23,10 @@ TagManager:
   - PaperHint3
   - getOfficKey
   - LabLock
+  - OfficeHint
+  - ProOut
+  - Monitor
+  - HintPaper
   layers:
   - Default
   - TransparentFX

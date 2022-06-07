@@ -27,20 +27,18 @@ public class CheckingLock : MonoBehaviour
         Player.P_instance.moveMouse = true;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        if (Door_InputField.text == "1234" && Player.P_instance.lockname == "professor")
+        if (Door_InputField.text == "23969" && Player.P_instance.lockname == "professor")
         {
             Debug.Log("오케이~");
             Door_InputField.text = "";
             Lockwindow.SetActive(false);
+            Player.P_instance.currentSpot = "ProRoom";
+            SceneManager.LoadScene("ProfessorRoom");
+        }
+        else if (Door_InputField.text == "9905" && Player.P_instance.lockname == "LabLock")
+        {
             Player.P_instance.currentSpot = "LabIn";
             SceneManager.LoadScene("2F_lab");
-        }
-        else if (Door_InputField.text == "23969" && Player.P_instance.lockname == "LabLock")
-        {
-            Debug.Log("오케이~");
-            Door_InputField.text = "";
-            Lockwindow.SetActive(false);
-            transform.GetComponent<OpenKey>().GetMasterKey();
         }
         else
         {

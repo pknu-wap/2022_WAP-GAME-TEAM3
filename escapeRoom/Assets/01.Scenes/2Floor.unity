@@ -1282,6 +1282,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
   m_PrefabInstance: {fileID: 645080980}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &645080984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645080981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03999fa413cb699488c49b6214d62440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Doorlock: 1
+  Lockwindow: {fileID: 246667999}
+  Door_InputField: {fileID: 246668001}
 --- !u!1 &646941201
 GameObject:
   m_ObjectHideFlags: 0
