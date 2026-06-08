@@ -45,7 +45,7 @@ public class Interaction : MonoBehaviour
                 else
                 {
                     text.text = "키가 필요할 것 같다. 키를 먼저 찾아보자.";
-                    StartCoroutine("TextOut", 3.0f);
+                    StartCoroutine("TextOut");
                 }
             }
             else if (hit.collider.CompareTag("OfficeOut")) // 문 상호작용
@@ -86,7 +86,7 @@ public class Interaction : MonoBehaviour
             else if (hit.collider.CompareTag("closeDoor"))
             {
                 text.text = "문이 잠긴것 같다. 열려있는 방을 찾아보는게 좋겠어.";
-                StartCoroutine("TextOut", 3.0f);
+                StartCoroutine("TextOut");
             }
             else if (hit.collider.CompareTag("PaperHint1")|| hit.collider.CompareTag("PaperHint2")|| hit.collider.CompareTag("PaperHint3"))
             {
@@ -96,7 +96,7 @@ public class Interaction : MonoBehaviour
             {
                 hit.transform.GetComponent<OpenKey>().GetOfficKey();
                 text.text = "학과 사무실 키를 획득하였다!";
-                StartCoroutine("TextOut", 3.0f);
+                StartCoroutine("TextOut");
             }
             else if(hit.collider.CompareTag("OfficeHint"))
             {
